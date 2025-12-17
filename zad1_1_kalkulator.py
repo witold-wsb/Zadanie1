@@ -1,16 +1,17 @@
-print("Simple calculator")
-x = int(input("Enter the 1st number: "))
-y = int(input("Enter the 2nd number: "))
-op  = input("Enter the operand: ")
+print("Prosty kalkulator")
+x = int(input("Wprowadź pierwszą liczbę: "))
+y = int(input("Wprowadź drugą liczbę: "))
+op  = input("Wprowadź operator: ")
 if op == "+":
-    print(x + y)
+    print(f"Wynik: {x + y}")
 elif op == "-":
-    print(x - y)
+    print(f"Wynik: {x - y}")
 elif op == "*":
-    print(x * y)
+    print(f"Wynik: {x * y}")
 elif op == "/":
-    #if y = 0:
-    #    print("Cannot divide by zero!")
-    print(x / y)
+    if y == 0:
+        print("Nie można dzielić przez zero!")
+    else:
+        print(f"Wynik: {x / y}")
 else:
-    print("Unknown operand")
+    print("Nieznany operator.")
