@@ -5,9 +5,9 @@ def zad2():
     choice = input("Wybierz kierunek konwersji:")
     
     if choice not in ["f", "c"]:
-        print("Nieprawidlowy wybór")
+        print("Nieprawidłowy wybór")
         return
-    temp = int(input("Podaj temperature: "))
+    temp = int(input("Podaj temperaturę: "))
 
     if choice == "f":
         temp2 = (temp - 32) / 1.8
