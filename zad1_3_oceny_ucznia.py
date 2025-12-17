@@ -12,4 +12,4 @@ print(f"Średnia: {avg}")
 if avg >= 3.0:
     print("Uczeń zdał.")
 else:
-    print("Uczeń nie zdał")
+    print("Uczeń nie zdał.")
